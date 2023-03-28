@@ -13,7 +13,7 @@ Installation
 # Clone this repository:
 bash
 Copy code
-git clone https://github.com/yourusername/VideoObjectDetectionApp.git
+git clone https://github.com/noujan/ObjectDetection.git
 Open the project in Xcode.
 Install any required dependencies (if needed).
 Run the app on a compatible iOS device or simulator.

@@ -25,3 +25,9 @@ Detected object descriptions and their confidence scores will be displayed below
 
 ## Dependencies
 YOLOv3FP16 model (or any other desired object detection model)
+
+
+## Demo
+
+https://user-images.githubusercontent.com/7261365/228370822-d4d9f1df-d72f-42ba-a89f-9ed0b96ff017.mp4
+

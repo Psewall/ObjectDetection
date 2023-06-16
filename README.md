@@ -10,7 +10,7 @@ Plays video with object detection results in real-time
 Installation
 
 ## Clone this repository:
-Copy code<br>
+Clone the repo <br>
 ```bash
 git clone https://github.com/noujan/ObjectDetection.git
 ```

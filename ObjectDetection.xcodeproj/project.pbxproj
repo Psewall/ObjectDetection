@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		826CD73E2B952ABB00E830C0 /* YOLOv3FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 826CD73D2B952ABB00E830C0 /* YOLOv3FP16.mlmodel */; };
 		E917C17429CE909B00551DB4 /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E917C17329CE909B00551DB4 /* VideoPreviewView.swift */; };
 		E9C54DA629CDFA8B00E5C98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C54DA529CDFA8B00E5C98E /* AppDelegate.swift */; };
 		E9C54DA829CDFA8B00E5C98E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C54DA729CDFA8B00E5C98E /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		826CD73D2B952ABB00E830C0 /* YOLOv3FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = YOLOv3FP16.mlmodel; path = Assets.xcassets/YOLOv3FP16.mlmodel; sourceTree = "<group>"; };
 		E917C17329CE909B00551DB4 /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
 		E9C54DA229CDFA8B00E5C98E /* ObjectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C54DA529CDFA8B00E5C98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		E9C54DA429CDFA8B00E5C98E /* ObjectDetection */ = {
 			isa = PBXGroup;
 			children = (
+				826CD73D2B952ABB00E830C0 /* YOLOv3FP16.mlmodel */,
 				E9C54DD729CDFC0600E5C98E /* Resources */,
 				E917C17529CE90A800551DB4 /* Base */,
 				E9C54DD529CDFAB000E5C98E /* VideoProcessor.swift */,
@@ -285,6 +288,7 @@
 				E9C54DA629CDFA8B00E5C98E /* AppDelegate.swift in Sources */,
 				E9C54DD629CDFAB000E5C98E /* VideoProcessor.swift in Sources */,
 				E9C54DA829CDFA8B00E5C98E /* SceneDelegate.swift in Sources */,
+				826CD73E2B952ABB00E830C0 /* YOLOv3FP16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8SR89H2X5;
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,7 +479,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8SR89H2X5;
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -504,7 +508,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -519,11 +523,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -539,11 +543,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -558,10 +562,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -576,10 +580,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q8PP88Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Noujan.ObjectDetection2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sewall.ObjectDetection2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

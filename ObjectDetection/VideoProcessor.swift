@@ -37,7 +37,7 @@ class VideoProcessor {
     // Processes the video and applies the model to each frame
     func processVideo(completion: @escaping ([VNRecognizedObjectObservation], CMSampleBuffer) -> Void) {
         // Load the video file and create an 'AVAsset'
-        let videoURL = Bundle.main.url(forResource: "video_1", withExtension: "mp4")!
+        let videoURL = Bundle.main.url(forResource: "IMG_0235", withExtension: "mov")!
         let asset = AVAsset(url: videoURL)
 
         // Set up an 'AVAssetReader' to read the video frames
